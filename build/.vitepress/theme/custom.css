@@ -1,0 +1,16 @@
+:root {
+    --vp-c-brand: #75ebba;
+    --vp-c-brand-light: #75ebba;
+    --vp-button-brand-bg:var(--vp-c-brand);
+}
+
+h1, h2{
+  font-family: 'Times New Roman', Times, serif
+}
+h2{
+  font-size: 1.5em !important;
+}
+.is-home{
+  /*background-image: url('/images/logo_transparent.png');*/
+  background-size: cover;
+}

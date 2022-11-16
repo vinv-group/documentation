@@ -9,15 +9,14 @@ export default {
     themeConfig: {
         footer: {
             message: 'Released under the GNU GENERAL PUBLIC LICENSE.',
-            copyright: 'Copyright © 2022 - present Grünecho',
-            link: 'https://github.com/vinv-group/documentation/blob/main/LICENSE'
+            copyright: 'Copyright © 2022 - present Grünecho'
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vinv-group/documentation' },
+            { icon: 'github', link: 'https://github.com/vinv-group' },
         ],
         logo: '/logo_transparent.png',
         editLink: {
-            pattern: 'https://github.com/vinv-group/documentation/:path',
+            pattern: 'https://github.com/vinv-group/documentation/edit/main/src/:path',
             text: 'Edit this page on GitHub'
         },
         nav: [
@@ -35,8 +34,8 @@ export default {
             {
                 text: 'Guide',
                 items: [
-                    { text: 'Introduction', link: '/introduction' },
-                    { text: 'Basic Definitions', link: '/getting-started' },
+                    { text: 'Introduction', link: '/guide/introduction' },
+                    { text: 'Get Started', link: '/guide/get-started' },
                     { text: 'Individual Tree', link: '/vinv-individual-tree/vinv-tree.md', items:[
                         { text: 'Location', link: '/vinv-individual-tree/0.md' },
                     ]},
