@@ -5,7 +5,7 @@ export default {
     outDir: '../docs',
     lastUpdated: true,
     lang: 'en-US',
-    base: '/docs/',
+    base: '/',
     themeConfig: {
         footer: {
             message: 'Released under the GNU GENERAL PUBLIC LICENSE.',
