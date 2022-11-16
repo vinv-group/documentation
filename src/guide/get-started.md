@@ -2,7 +2,6 @@
 
 The schemas are based on the [JSON Schema](https://json-schema.org/) standard and are supplemented with additional information for the documentation.
 
-
 ## vinv-Syntax
 
 <Badge type="info" text="Documentation coming soon..." />
