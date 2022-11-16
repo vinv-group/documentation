@@ -20,7 +20,7 @@ export default {
             text: 'Edit this page on GitHub'
         },
         nav: [
-            { text: 'Guide', link: '/guide.md' },
+            { text: 'Guide', link: '/guide/introduction.md' },
             { text: 'Code of Cunduct', link: '/code-of-conduct.md' },
             {
                 text: 'Contributing',
@@ -32,31 +32,45 @@ export default {
         ],
         sidebar: [
             {
-                text: 'Guide',
                 items: [
                     { text: 'Introduction', link: '/guide/introduction' },
                     { text: 'Get Started', link: '/guide/get-started' },
-                    { text: 'Individual Tree', link: '/vinv-individual-tree/vinv-tree.md', items:[
-                        { text: 'Location', link: '/vinv-individual-tree/0.md' },
-                    ]},
-                ]
-            },
-            {
-                text: 'Definitions',
-                items: [
-                    { text: 'About', link: '/introduction', items:[
-                        { text: 'Location', link: '/introduction' },
-                    ] }
+                    
                 ]
             },
             {
                 text: 'Individual Tree',
+                collapsible: true,
+                collapsed: true,
                 items: [
                     { text: 'Overview', link: '/overview-individual-tree.md' },
                     { text: 'Usage', link: '/usage-individual-tree.md'},
-                    { text: 'Schema', link: '/vinv-individual-tree/0.md', items:[
-                        { text: 'v0.0.1', link: '/vinv-individual-tree/vinv-tree-properties-location.md' },
-                    ]},
+                    { text: 'Schema', link: '/vinv-individual-tree/0.0.1/dereferenced.md' }
+                ]
+            },
+            {
+                text: 'Individual Log',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    { text: 'Overview', link: '/overview-individual-tree.md' },
+                    { text: 'Usage', link: '/usage-individual-tree.md'},
+                    { text: 'Schema', link: '/vinv-individual-tree/0.0.1/dereferenced.md' }
+                ]
+            },
+            {
+                items: [
+                    {   text: 'vinv-Basics',
+                        link: '/guide/basics.md',
+                        collapsible: true,
+                        collapsed: false,
+                        items: [
+                            { text: 'Location', link: '/location/0.0.1/dereferenced.md' },
+                            { text: 'Coordinates', link: '/coordinates/0.0.1/dereferenced.md' },
+                            { text: 'Image', link: '/image/0.0.1/dereferenced.md' },
+                            { text: 'Species', link: '/species/0.0.1/dereferenced.md' }
+                        ]
+                    }
                 ]
             }
         ]

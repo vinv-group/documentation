@@ -14,3 +14,7 @@ h2{
   /*background-image: url('/images/logo_transparent.png');*/
   background-size: cover;
 }
+
+.nav .group + h2:first-of-type{
+  font-size: 1em !important;
+}
