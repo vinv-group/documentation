@@ -1,4 +1,11 @@
+// https://vitepress.vuejs.org/config/app-configs#markdown
 export default {
+    
+    markdown: {
+        theme: 'nord',
+        lineNumbers: true,
+    },
+
     title: 'vinv',
     description: 'Just playing around.',
     srcDir: '../src',
@@ -35,27 +42,7 @@ export default {
                 items: [
                     { text: 'Introduction', link: '/guide/introduction' },
                     { text: 'Get Started', link: '/guide/get-started' },
-                    
-                ]
-            },
-            {
-                text: 'Individual Tree',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    { text: 'Overview', link: '/overview-individual-tree.md' },
-                    { text: 'Usage', link: '/usage-individual-tree.md'},
-                    { text: 'Schema', link: '/vinv-individual-tree/0.0.1/dereferenced.md' }
-                ]
-            },
-            {
-                text: 'Individual Log',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    { text: 'Overview', link: '/overview-individual-tree.md' },
-                    { text: 'Usage', link: '/usage-individual-tree.md'},
-                    { text: 'Schema', link: '/vinv-individual-tree/0.0.1/dereferenced.md' }
+                    { text: 'Envelope', link: '/guide/envelope' },
                 ]
             },
             {
@@ -65,12 +52,22 @@ export default {
                         collapsible: true,
                         collapsed: false,
                         items: [
-                            { text: 'Location', link: '/location/0.0.1/dereferenced.md' },
-                            { text: 'Coordinates', link: '/coordinates/0.0.1/dereferenced.md' },
-                            { text: 'Image', link: '/image/0.0.1/dereferenced.md' },
-                            { text: 'Species', link: '/species/0.0.1/dereferenced.md' }
+                            { text: 'Location', link: '/basics/location/0.0.1/dereferenced.md' },
+                            { text: 'Coordinates', link: '/basics/coordinates/0.0.1/dereferenced.md' },
+                            { text: 'Image', link: '/basics/image/0.0.1/dereferenced.md' },
+                            { text: 'Species', link: '/basics/species/0.0.1/dereferenced.md' }
                         ]
                     }
+                ]
+            },
+            {
+                text: 'Individual Tree',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    { text: 'Overview', link: '/specifications/vinv-individual-tree/overview.md' },
+                    //{ text: 'Usage', link: '/specifications/vinv-individual-tree/usage.md'},
+                    { text: 'Schema', link: '/specifications/vinv-individual-tree/0.0.1/dereferenced.md' }
                 ]
             }
         ]

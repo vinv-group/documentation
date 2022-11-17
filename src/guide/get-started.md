@@ -14,14 +14,14 @@ When developing your schema, you will be guided by the json schema standard. You
 
 To make your work easier and to avoid having to rewrite recurring logic, you can integrate existing schemas into your custom data model.
 
-``` json
+```json{12-14}
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Mushroom Spots",
     "description": "Schema for saving and sharing my favorite mushroom spots",
     "type": "object",
     "properties": {
-        "mushroom-name": {
+        "mushroom-name": { // [!code  --]
             "title": "Mushroom Name",
             "description": "Name the mushroom found",
             "type": "string",
@@ -40,7 +40,7 @@ To make your work easier and to avoid having to rewrite recurring logic, you can
 }
 ```
 
-In this example, a custom data model is extended by an existing data model [Location](/location.md).
+In this example, a custom data model is extended by an existing data model [Location](/basics/location/0.0.1/dereferenced.md).
 The resulting data model thus contains important information for locating your favourit mushrooms.
 
 [Join the vinv-group](/guide/introduction.html) for more information.
