@@ -4,7 +4,7 @@ layout: home
 hero:
   name: vinv
   text: Specifications of Forest Inventory Data
-  tagline: Lorem ipsum...
+  tagline: Description of geospatial data models relevant to forestry.
   image:
     light: /image/vinv.svg
     dark: /image/vinv.svg
