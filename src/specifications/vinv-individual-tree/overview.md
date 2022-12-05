@@ -8,16 +8,21 @@ Basics:
 [<Badge type="tip" text="Coordinates" />](/basics/coordinates/0.0.1/dereferenced.md)
 [<Badge type="tip" text="Image" />](/basics/image/0.0.1/dereferenced.md)
 
-Version: <Badge type="" text="0.0.1" />
+Version: <Badge type="info" text="0.0.1" />
+
+<sub>Description ...</sub>
 
 ## Schema
-[Raw Schema](https://schema.vinv.io/vinv-individual-tree/0.0.1.json)
+
+https://schema.vinv.io/vinv-individual-tree/0.0.1.json
 
 ::: details Click me to view the code
 ```json
 <!--@include: ../../assets/specifications/vinv-individual-tree/0.0.1-schema.json-->
 ```
 :::
+
+<sub>Go to the full [documentation](/specifications/vinv-individual-tree/0.0.1/dereferenced.html).</sub>
 
 ## Example File
 

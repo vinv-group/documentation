@@ -4,7 +4,10 @@ layout: home
 hero:
   name: vinv
   text: Specifications of Forest Inventory Data
-  #tagline: Lorem ipsum...
+  tagline: Lorem ipsum...
+  image:
+    light: /image/vinv.svg
+    dark: /image/vinv.svg
   actions:
     - theme: brand
       text: Get Started
@@ -15,15 +18,5 @@ hero:
 features:
   - title: Individual Tree
     details: Lorem ipsum...
-    link: /overview-individual-tree.html
-  - title: Power of Vue meets Markdown
-    details: Lorem ipsum...
-  - title: Simple and minimal, always
-    details: Lorem ipsum...
-  - title: Simple and minimal, always
-    details: Lorem ipsum...
-  - title: Simple and minimal, always
-    details: Lorem ipsum...
-  - title: Simple and minimal, always
-    details: Lorem ipsum...
+    link: /specifications/vinv-individual-tree/overview.html
 ---
