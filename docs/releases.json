@@ -1,0 +1,22 @@
+[
+    {
+        "id": "envelope",
+        "icon": "https://vinv.io/schema-icons/forest_FILL0_wght400_GRAD0_opsz48.svg",
+        "hero": null,
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/envelope/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/envelope/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/envelope/0.0.1/dereverenced.doc.json",
+        "documentation": "https://vinv.io/guide/envelope.html"
+    },
+    {
+        "id": "vinv-individual-tree",
+        "icon": "https://vinv.io/schema-icons/forest_FILL0_wght400_GRAD0_opsz48.svg",
+        "hero": null,
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/vinv-individual-tree/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/vinv-individual-tree/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/vinv-individual-tree/0.0.1/dereverenced.doc.json",
+        "documentation": "https://vinv.io/specifications/vinv-individual-tree/overview.html"
+    }
+]

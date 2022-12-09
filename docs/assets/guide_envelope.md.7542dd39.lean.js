@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as p}from"./app.f0fb77c0.js";const u=JSON.parse('{"title":"Envelope","description":"","frontmatter":{},"headers":[],"relativePath":"guide/envelope.md","lastUpdated":1668718410000}'),l={name:"guide/envelope.md"},o=p("",3),e=[o];function t(F,E,r,c,y,C){return a(),n("div",null,e)}const D=s(l,[["render",t]]);export{u as __pageData,D as default};

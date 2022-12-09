@@ -43,7 +43,7 @@ export default {
             {
                 text: 'Contributing',
                 items: [
-                    { text: 'Report an Issue', link: 'https://github.com/vinv-group/documentation/issues', target: '_blank' },
+                    { text: 'Report an Issue', link: 'https://github.com/vinv-group/vinv-schema/issues', target: '_blank' },
                     { text: 'Chat', link: 'https://matrix.to/#/%23vinv:matrix.org', target: '_blank' }
                 ]
             }
