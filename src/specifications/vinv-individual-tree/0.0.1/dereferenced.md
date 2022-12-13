@@ -6,9 +6,9 @@ https://schema.vinv.io/vinv-individual-tree/0.0.1.json
 
 Tree definition
 
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                   |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json](../../../../vinv-schemas/vinv-tree/out/dereferenced.doc.json "open original schema") |
+| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                            |
+| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json](../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
 ## Individual Tree Type
 
@@ -18,8 +18,8 @@ Tree definition
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                       |
 | :-------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location) | `object` | Required | cannot be null | [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location")             |
-| [species](#species)   | `string` | Required | cannot be null | [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/species")          |
+| [location](#location) | `object` | Required | cannot be null | [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")                         |
+| [species](#species)   | `string` | Required | cannot be null | [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/species/0.0.1.json#/properties/species")                       |
 | [dbh](#dbh)           | `number` | Required | cannot be null | [Individual Tree](dereferenced-properties-diameter-at-breast-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/dbh") |
 | [height](#height)     | `number` | Optional | can be null    | [Individual Tree](dereferenced-properties-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/height")                 |
 | [trunk](#trunk)       | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk")        |
@@ -38,7 +38,7 @@ Tree definition
 
 *   cannot be null
 
-*   defined in: [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location")
+*   defined in: [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")
 
 *   vinv:id: https://schema.vinv.io/location/0.0.1.json
 
@@ -58,7 +58,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 *   cannot be null
 
-*   defined in: [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/species")
+*   defined in: [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/species/0.0.1.json#/properties/species")
 
 ### species Type
 
@@ -68,7 +68,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 **pattern**: the string must match the following regular expression:&#x20;
 
-```
+```txt
 ^[a-zA-Z0-9_-]{3}$
 ```
 

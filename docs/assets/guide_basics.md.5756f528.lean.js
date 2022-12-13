@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a as s}from"./app.b762112b.js";const v=JSON.parse('{"title":"vinv-Basics","description":"","frontmatter":{},"headers":[],"relativePath":"guide/basics.md","lastUpdated":1668718410000}'),i={name:"guide/basics.md"},n=s("",4),c=[n];function o(r,d,l,h,_,f){return t(),a("div",null,c)}const u=e(i,[["render",o]]);export{v as __pageData,u as default};

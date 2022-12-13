@@ -1,28 +1,28 @@
 # Image of the trunk Schema
 
 ```txt
-https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/image_crown
+https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk
 ```
 
 Image of the trunk
 
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                     |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../vinv-schemas/vinv-tree/out/dereferenced.doc.json "open original schema") |
+| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                              |
+| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
-## image\_crown Type
+## image\_trunk Type
 
 `object` ([Image of the trunk](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md))
 
-# image\_crown Properties
+# image\_trunk Properties
 
-| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                   |
-| :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [uri](#uri)                 | `string`  | Required | cannot be null | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-image.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/uri")               |
-| [encoder](#encoder)         | `string`  | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-encoder.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/encoder")         |
-| [compression](#compression) | `number`  | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-compression.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/compression") |
-| [width](#width)             | `integer` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-width.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/width")             |
-| [height](#height)           | `integer` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/height")           |
+| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
+| :-------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [uri](#uri)                 | `string`  | Required | cannot be null | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-image.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/uri")               |
+| [encoder](#encoder)         | `string`  | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-encoder.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/encoder")         |
+| [compression](#compression) | `number`  | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-compression.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/compression") |
+| [width](#width)             | `integer` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-width.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/width")             |
+| [height](#height)           | `integer` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-height.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/height")           |
 
 ## uri
 
@@ -36,7 +36,7 @@ A universal resource identifier (URI), according to RFC3986.
 
 *   cannot be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-image.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/uri")
+*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-image.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/uri")
 
 ### uri Type
 
@@ -64,7 +64,7 @@ The encoder used to encode the image.
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-encoder.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/encoder")
+*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-encoder.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/encoder")
 
 ### encoder Type
 
@@ -109,7 +109,7 @@ The compression used to encode the image.
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-compression.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/compression")
+*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-compression.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/compression")
 
 ### compression Type
 
@@ -147,7 +147,7 @@ Width of the image.
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-width.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/width")
+*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-width.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/width")
 
 ### width Type
 
@@ -177,7 +177,7 @@ Height of the image
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk/properties/image_trunk/properties/height")
+*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk-properties-height.md "https://schema.vinv.io/image/0.0.1.json#/properties/trunk/properties/image_trunk/properties/height")
 
 ### height Type
 

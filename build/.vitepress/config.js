@@ -66,7 +66,8 @@ export default {
                             { text: 'Location', link: '/basics/location/0.0.1/dereferenced.md' },
                             { text: 'Coordinates', link: '/basics/coordinates/0.0.1/dereferenced.md' },
                             { text: 'Image', link: '/basics/image/0.0.1/dereferenced.md' },
-                            { text: 'Species', link: '/basics/species/0.0.1/dereferenced.md' }
+                            { text: 'Species', link: '/basics/species/0.0.1/dereferenced.md' },
+                            { text: 'Sensors', link: '/basics/sensors/0.0.1/dereferenced.md' }
                         ]
                     }
                 ]
@@ -79,6 +80,16 @@ export default {
                     { text: 'Overview', link: '/specifications/vinv-individual-tree/overview.md' },
                     //{ text: 'Usage', link: '/specifications/vinv-individual-tree/usage.md'},
                     { text: 'Documentation', link: '/specifications/vinv-individual-tree/0.0.1/dereferenced.md' }
+                ]
+            },
+            {
+                text: 'Roundwood Pile',
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    //{ text: 'Overview', link: '/specifications/vinv-roundwood-pile/overview.md' },
+                    //{ text: 'Usage', link: '/specifications/vinv-individual-tree/usage.md'},
+                    { text: 'Documentation', link: '/specifications/vinv-roundwood-pile/0.0.1/dereferenced.md' }
                 ]
             }
         ]

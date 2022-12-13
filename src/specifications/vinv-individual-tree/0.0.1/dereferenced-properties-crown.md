@@ -6,9 +6,9 @@ https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown
 
 Crown definition
 
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                     |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../vinv-schemas/vinv-tree/out/dereferenced.doc.json "open original schema") |
+| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                              |
+| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
 ## crown Type
 
@@ -16,10 +16,10 @@ Crown definition
 
 # crown Properties
 
-| Property                     | Type     | Required | Nullable       | Defined by                                                                                                                                                                                     |
-| :--------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [dimensions](#dimensions)    | `array`  | Required | cannot be null | [Individual Tree](dereferenced-properties-crown-properties-crown-dimensions.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/dimensions")               |
-| [image\_crown](#image_crown) | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/image_crown") |
+| Property                     | Type     | Required | Nullable       | Defined by                                                                                                                                                                       |
+| :--------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [dimensions](#dimensions)    | `array`  | Required | cannot be null | [Individual Tree](dereferenced-properties-crown-properties-crown-dimensions.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/dimensions") |
+| [image\_crown](#image_crown) | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md "https://schema.vinv.io/image/0.0.1.json#/properties/crown/properties/image_crown")  |
 
 ## dimensions
 
@@ -51,7 +51,7 @@ Image of the trunk
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/image_crown")
+*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md "https://schema.vinv.io/image/0.0.1.json#/properties/crown/properties/image_crown")
 
 *   vinv:id: https://schema.vinv.io/image/0.0.1.json
 

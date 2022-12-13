@@ -1,14 +1,14 @@
 # Tree species Schema
 
 ```txt
-https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/species
+https://schema.vinv.io/species/0.0.1.json#/properties/species
 ```
 
 Tree Species values taken from <https://github.com/b-lack/tree-species>
 
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                     |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../vinv-schemas/vinv-tree/out/dereferenced.doc.json "open original schema") |
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                              |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
 ## species Type
 
@@ -18,7 +18,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 **pattern**: the string must match the following regular expression:&#x20;
 
-```
+```txt
 ^[a-zA-Z0-9_-]{3}$
 ```
 
