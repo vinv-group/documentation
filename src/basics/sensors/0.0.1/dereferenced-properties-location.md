@@ -1,7 +1,7 @@
 # Location Schema
 
 ```txt
-https://schema.vinv.io/location/0.0.1.json#/properties/location
+https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location
 ```
 
 
@@ -16,11 +16,11 @@ https://schema.vinv.io/location/0.0.1.json#/properties/location
 
 # location Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                        |
-| :-------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [coordinates](#coordinates) | `object` | Required | cannot be null | [Sensors](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates") |
-| [accuracy](#accuracy)       | `number` | Required | cannot be null | [Sensors](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/accuracy")          |
-| [geogrid](#geogrid)         | `object` | Optional | can be null    | [Sensors](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid")           |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                         |
+| :-------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [coordinates](#coordinates) | `object` | Required | cannot be null | [Sensors](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/coordinates") |
+| [accuracy](#accuracy)       | `number` | Required | cannot be null | [Sensors](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/accuracy")       |
+| [geogrid](#geogrid)         | `object` | Optional | can be null    | [Sensors](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/geogrid")        |
 
 ## coordinates
 
@@ -34,7 +34,7 @@ Anchor point of the Object on a map. Array of longitude, latitude and \[altitude
 
 *   cannot be null
 
-*   defined in: [Sensors](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates")
+*   defined in: [Sensors](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/coordinates")
 
 *   vinv:basics: https://documentation.vinv.io/coordinates/0.0.1/0.html
 
@@ -54,7 +54,7 @@ The decimal accuracy of coordinates in meter (2 decimal places max).
 
 *   cannot be null
 
-*   defined in: [Sensors](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/accuracy")
+*   defined in: [Sensors](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/accuracy")
 
 ### accuracy Type
 
@@ -90,7 +90,7 @@ Geographical Aggregation Grid
 
 *   can be null
 
-*   defined in: [Sensors](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid")
+*   defined in: [Sensors](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/geogrid")
 
 ### geogrid Type
 

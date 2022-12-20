@@ -1,7 +1,7 @@
 # Latitude Schema
 
 ```txt
-https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/latitude
+https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/coordinates/properties/latitude
 ```
 
 The decimal north/south position of a point. (7 decimal places max)

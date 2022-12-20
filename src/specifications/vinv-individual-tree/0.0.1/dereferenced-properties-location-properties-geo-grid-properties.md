@@ -1,7 +1,7 @@
 # Untitled undefined type in Individual Tree Schema
 
 ```txt
-https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid/properties
+https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/geogrid/properties
 ```
 
 

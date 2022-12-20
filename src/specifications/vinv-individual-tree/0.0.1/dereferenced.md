@@ -18,11 +18,11 @@ Tree definition
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                       |
 | :-------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location) | `object` | Required | cannot be null | [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")                         |
-| [species](#species)   | `string` | Required | cannot be null | [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/species/0.0.1.json#/properties/species")                       |
+| [location](#location) | `object` | Required | cannot be null | [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location")             |
+| [species](#species)   | `string` | Required | cannot be null | [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/species")          |
 | [dbh](#dbh)           | `number` | Required | cannot be null | [Individual Tree](dereferenced-properties-diameter-at-breast-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/dbh") |
 | [height](#height)     | `number` | Optional | can be null    | [Individual Tree](dereferenced-properties-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/height")                 |
-| [trunk](#trunk)       | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk")        |
+| [trunk](#trunk)       | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk")                   |
 | [crown](#crown)       | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-crown.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown")                   |
 | [birth](#birth)       | `string` | Optional | can be null    | [Individual Tree](dereferenced-properties-birthday.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/birth")                |
 
@@ -38,7 +38,7 @@ Tree definition
 
 *   cannot be null
 
-*   defined in: [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")
+*   defined in: [Individual Tree](dereferenced-properties-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location")
 
 *   vinv:id: https://schema.vinv.io/location/0.0.1.json
 
@@ -58,7 +58,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 *   cannot be null
 
-*   defined in: [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/species/0.0.1.json#/properties/species")
+*   defined in: [Individual Tree](dereferenced-properties-tree-species.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/species")
 
 ### species Type
 
@@ -68,7 +68,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 **pattern**: the string must match the following regular expression:&#x20;
 
-```txt
+```regexp
 ^[a-zA-Z0-9_-]{3}$
 ```
 
@@ -164,15 +164,15 @@ Trunk definition
 
 *   is optional
 
-*   Type: `object` ([Trunk definition](dereferenced-properties-trunk-definition.md))
+*   Type: `object` ([Trunk](dereferenced-properties-trunk.md))
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk")
+*   defined in: [Individual Tree](dereferenced-properties-trunk.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/trunk")
 
 ### trunk Type
 
-`object` ([Trunk definition](dereferenced-properties-trunk-definition.md))
+`object` ([Trunk](dereferenced-properties-trunk.md))
 
 ## crown
 
@@ -218,87 +218,4 @@ Birthday of the tree
 
 ```json
 "2010-09-13"
-```
-
-# Individual Tree Definitions
-
-## Definitions group dimension\_at\_height
-
-Reference this group by using
-
-```json
-{"$ref":"https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/$defs/dimension_at_height"}
-```
-
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                             |
-| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [height](#height-1)   | `number` | Optional | cannot be null | [Individual Tree](dereferenced-defs-diameter-at-height-properties-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/$defs/dimension_at_height/properties/height")     |
-| [diameter](#diameter) | `number` | Optional | cannot be null | [Individual Tree](dereferenced-defs-diameter-at-height-properties-diameter.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/$defs/dimension_at_height/properties/diameter") |
-
-### height
-
-Height of tree in PERCENT where diameter is measured
-
-`height`
-
-*   is optional
-
-*   Type: `number` ([Height](dereferenced-defs-diameter-at-height-properties-height.md))
-
-*   cannot be null
-
-*   defined in: [Individual Tree](dereferenced-defs-diameter-at-height-properties-height.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/$defs/dimension_at_height/properties/height")
-
-#### height Type
-
-`number` ([Height](dereferenced-defs-diameter-at-height-properties-height.md))
-
-#### height Constraints
-
-**maximum**: the value of this number must smaller than or equal to: `1`
-
-**minimum**: the value of this number must greater than or equal to: `0.1`
-
-#### height Examples
-
-```json
-0.5
-```
-
-```json
-0.1
-```
-
-### diameter
-
-Diameter in CENTIMETER at measured height
-
-`diameter`
-
-*   is optional
-
-*   Type: `number` ([Diameter](dereferenced-defs-diameter-at-height-properties-diameter.md))
-
-*   cannot be null
-
-*   defined in: [Individual Tree](dereferenced-defs-diameter-at-height-properties-diameter.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/$defs/dimension_at_height/properties/diameter")
-
-#### diameter Type
-
-`number` ([Diameter](dereferenced-defs-diameter-at-height-properties-diameter.md))
-
-#### diameter Constraints
-
-**maximum**: the value of this number must smaller than or equal to: `100`
-
-**minimum**: the value of this number must greater than or equal to: `10`
-
-#### diameter Examples
-
-```json
-34
-```
-
-```json
-38
 ```

@@ -16,10 +16,10 @@ https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items
 
 # items Properties
 
-| Property                                   | Type     | Required | Nullable       | Defined by                                                                                                                                                                              |
-| :----------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [timestamp](#timestamp)                    | `number` | Required | cannot be null | [Sensors](dereferenced-properties-device-orientation-items-properties-timestamp.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items/properties/timestamp") |
-| [device\_orientation](#device_orientation) | `object` | Required | cannot be null | [Sensors](dereferenced-defs-device_orientation.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items/properties/device_orientation")                         |
+| Property                                   | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                |
+| :----------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [timestamp](#timestamp)                    | `number` | Required | cannot be null | [Sensors](dereferenced-properties-device-orientation-items-properties-timestamp.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items/properties/timestamp")                   |
+| [device\_orientation](#device_orientation) | `object` | Required | cannot be null | [Sensors](dereferenced-properties-device-orientation-items-properties-device_orientation.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items/properties/device_orientation") |
 
 ## timestamp
 
@@ -61,12 +61,12 @@ The value of this property is managed exclusively by the owning authority, and a
 
 *   is required
 
-*   Type: `object` ([Details](dereferenced-defs-device_orientation.md))
+*   Type: `object` ([Details](dereferenced-properties-device-orientation-items-properties-device_orientation.md))
 
 *   cannot be null
 
-*   defined in: [Sensors](dereferenced-defs-device_orientation.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items/properties/device_orientation")
+*   defined in: [Sensors](dereferenced-properties-device-orientation-items-properties-device_orientation.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data/items/properties/device_orientation")
 
 ### device\_orientation Type
 
-`object` ([Details](dereferenced-defs-device_orientation.md))
+`object` ([Details](dereferenced-properties-device-orientation-items-properties-device_orientation.md))

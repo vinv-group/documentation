@@ -16,10 +16,10 @@ Crown definition
 
 # crown Properties
 
-| Property                     | Type     | Required | Nullable       | Defined by                                                                                                                                                                       |
-| :--------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [dimensions](#dimensions)    | `array`  | Required | cannot be null | [Individual Tree](dereferenced-properties-crown-properties-crown-dimensions.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/dimensions") |
-| [image\_crown](#image_crown) | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md "https://schema.vinv.io/image/0.0.1.json#/properties/crown/properties/image_crown")  |
+| Property                     | Type     | Required | Nullable       | Defined by                                                                                                                                                                          |
+| :--------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [dimensions](#dimensions)    | `array`  | Required | cannot be null | [Individual Tree](dereferenced-properties-crown-properties-crown-dimensions.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/dimensions")    |
+| [image\_crown](#image_crown) | `object` | Optional | can be null    | [Individual Tree](dereferenced-properties-crown-properties-image-of-the-trunk.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/image_crown") |
 
 ## dimensions
 
@@ -29,7 +29,7 @@ Diameter per height
 
 *   is required
 
-*   Type: `object[]` ([Diameter at height](dereferenced-defs-diameter-at-height.md))
+*   Type: `object[]` ([Diameter at height](dereferenced-properties-crown-properties-crown-dimensions-diameter-at-height.md))
 
 *   cannot be null
 
@@ -37,7 +37,7 @@ Diameter per height
 
 ### dimensions Type
 
-`object[]` ([Diameter at height](dereferenced-defs-diameter-at-height.md))
+`object[]` ([Diameter at height](dereferenced-properties-crown-properties-crown-dimensions-diameter-at-height.md))
 
 ## image\_crown
 
@@ -47,14 +47,14 @@ Image of the trunk
 
 *   is optional
 
-*   Type: `object` ([Image of the trunk](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md))
+*   Type: `object` ([Image of the trunk](dereferenced-properties-crown-properties-image-of-the-trunk.md))
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md "https://schema.vinv.io/image/0.0.1.json#/properties/crown/properties/image_crown")
+*   defined in: [Individual Tree](dereferenced-properties-crown-properties-image-of-the-trunk.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/crown/properties/image_crown")
 
 *   vinv:id: https://schema.vinv.io/image/0.0.1.json
 
 ### image\_crown Type
 
-`object` ([Image of the trunk](dereferenced-properties-trunk-definition-properties-image-of-the-trunk.md))
+`object` ([Image of the trunk](dereferenced-properties-crown-properties-image-of-the-trunk.md))

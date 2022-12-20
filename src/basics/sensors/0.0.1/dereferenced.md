@@ -4,7 +4,7 @@
 https://schema.vinv.io/vinv-sensors/0.0.1.json
 ```
 
-Tree definition
+Sensors definition
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                            |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :-------------------------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ Tree definition
 
 | Property                     | Type     | Required | Nullable       | Defined by                                                                                                                        |
 | :--------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location)        | `object` | Required | cannot be null | [Sensors](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")                  |
+| [location](#location)        | `object` | Required | cannot be null | [Sensors](dereferenced-properties-location.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location")              |
 | [settings](#settings)        | `object` | Optional | cannot be null | [Sensors](dereferenced-properties-settings.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/settings")              |
 | [sensor\_data](#sensor_data) | `array`  | Optional | cannot be null | [Sensors](dereferenced-properties-device-orientation.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/sensor_data") |
 
@@ -34,7 +34,7 @@ Tree definition
 
 *   cannot be null
 
-*   defined in: [Sensors](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")
+*   defined in: [Sensors](dereferenced-properties-location.md "https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location")
 
 ### location Type
 

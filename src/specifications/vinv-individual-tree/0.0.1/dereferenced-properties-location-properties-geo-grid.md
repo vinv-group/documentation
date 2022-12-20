@@ -1,7 +1,7 @@
 # Geo Grid Schema
 
 ```txt
-https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid
+https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/geogrid
 ```
 
 Geographical Aggregation Grid
@@ -16,10 +16,10 @@ Geographical Aggregation Grid
 
 # geogrid Properties
 
-| Property            | Type     | Required | Nullable    | Defined by                                                                                                                                                                                                     |
-| :------------------ | :------- | :------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [h3](#h3)           | `string` | Optional | can be null | [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-h3-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid/properties/h3")           |
-| [geohash](#geohash) | `string` | Optional | can be null | [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-geohash-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid/properties/geohash") |
+| Property            | Type     | Required | Nullable    | Defined by                                                                                                                                                                                                                 |
+| :------------------ | :------- | :------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [h3](#h3)           | `string` | Optional | can be null | [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-h3-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/geogrid/properties/h3")           |
+| [geohash](#geohash) | `string` | Optional | can be null | [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-geohash-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/geogrid/properties/geohash") |
 
 ## h3
 
@@ -33,7 +33,7 @@ Location of the event (h3 <https://h3geo.org/>)
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-h3-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid/properties/h3")
+*   defined in: [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-h3-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/geogrid/properties/h3")
 
 ### h3 Type
 
@@ -63,7 +63,7 @@ Location of the event (geohash <https://en.wikipedia.org/wiki/Geohash>)
 
 *   can be null
 
-*   defined in: [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-geohash-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid/properties/geohash")
+*   defined in: [Individual Tree](dereferenced-properties-location-properties-geo-grid-properties-geohash-location.md "https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/geogrid/properties/geohash")
 
 ### geohash Type
 

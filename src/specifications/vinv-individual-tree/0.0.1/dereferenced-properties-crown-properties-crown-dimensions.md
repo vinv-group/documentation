@@ -12,4 +12,4 @@ Diameter per height
 
 ## dimensions Type
 
-`object[]` ([Diameter at height](dereferenced-defs-diameter-at-height.md))
+`object[]` ([Diameter at height](dereferenced-properties-crown-properties-crown-dimensions-diameter-at-height.md))

@@ -1,7 +1,7 @@
 # Accuracy Schema
 
 ```txt
-https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/accuracy
+https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/accuracy
 ```
 
 The decimal accuracy of coordinates in meter (2 decimal places max).

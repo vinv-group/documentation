@@ -1,7 +1,7 @@
 # Tree species Schema
 
 ```txt
-https://schema.vinv.io/species/0.0.1.json#/properties/species
+https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/species
 ```
 
 Tree Species values taken from <https://github.com/b-lack/tree-species>
@@ -18,7 +18,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 **pattern**: the string must match the following regular expression:&#x20;
 
-```txt
+```regexp
 ^[a-zA-Z0-9_-]{3}$
 ```
 

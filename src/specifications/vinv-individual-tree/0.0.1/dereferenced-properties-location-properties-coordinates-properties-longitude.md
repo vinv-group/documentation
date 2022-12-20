@@ -1,7 +1,7 @@
 # Longitude Schema
 
 ```txt
-https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/longitude
+https://schema.vinv.io/vinv-individual-tree/0.0.1.json#/properties/location/properties/coordinates/properties/longitude
 ```
 
 The decimal east/west position of a point. (7 decimal places max)

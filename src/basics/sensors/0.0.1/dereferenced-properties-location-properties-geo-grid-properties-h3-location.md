@@ -1,7 +1,7 @@
 # h3-Location Schema
 
 ```txt
-https://schema.vinv.io/location/0.0.1.json#/properties/location/properties/geogrid/properties/h3
+https://schema.vinv.io/vinv-sensors/0.0.1.json#/properties/location/properties/geogrid/properties/h3
 ```
 
 Location of the event (h3 <https://h3geo.org/>)
