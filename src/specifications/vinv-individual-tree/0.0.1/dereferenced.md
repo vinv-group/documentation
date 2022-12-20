@@ -68,7 +68,7 @@ Tree Species values taken from <https://github.com/b-lack/tree-species>
 
 **pattern**: the string must match the following regular expression:&#x20;
 
-```regexp
+```txt
 ^[a-zA-Z0-9_-]{3}$
 ```
 
