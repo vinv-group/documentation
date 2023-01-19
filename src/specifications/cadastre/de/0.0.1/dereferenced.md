@@ -16,225 +16,143 @@ Tree cadastre
 
 # Baumkataster Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                           |
-| :-------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location) | `object` | Required | cannot be null | [Baumkataster](dereferenced-properties-location.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location")             |
-| [species](#species)   | `string` | Required | cannot be null | [Baumkataster](dereferenced-properties-tree-species.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/species")          |
-| [dbh](#dbh)           | `number` | Required | cannot be null | [Baumkataster](dereferenced-properties-diameter-at-breast-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/dbh") |
-| [height](#height)     | `number` | Optional | can be null    | [Baumkataster](dereferenced-properties-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/height")                 |
-| [trunk](#trunk)       | `object` | Optional | can be null    | [Baumkataster](dereferenced-properties-trunk.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")                   |
-| [crown](#crown)       | `object` | Optional | can be null    | [Baumkataster](dereferenced-properties-crown.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")                   |
-| [root](#root)         | `object` | Optional | can be null    | [Baumkataster](dereferenced-properties-root.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")                     |
-| [birth](#birth)       | `string` | Optional | can be null    | [Baumkataster](dereferenced-properties-birthday.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/birth")                |
+| Property                                     | Type     | Required | Nullable       | Defined by                                                                                                                                     |
+| :------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| [tree](#tree)                                | `object` | Required | cannot be null | [Baumkataster](dereferenced-properties-individual-tree.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree")                    |
+| [conservation\_status](#conservation_status) | `string` | Required | cannot be null | [Baumkataster](dereferenced-properties-conservation-status.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/conservation_status") |
+| [root](#root)                                | `object` | Optional | cannot be null | [Baumkataster](dereferenced-properties-wurzel.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")                             |
+| [trunk](#trunk)                              | `object` | Optional | cannot be null | [Baumkataster](dereferenced-properties-stammfuß-und-stamm-.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")               |
+| [crown](#crown)                              | `object` | Optional | cannot be null | [Baumkataster](dereferenced-properties-stammfuß-und-stamm--1.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")             |
+| [annotation](#annotation)                    | `string` | Optional | cannot be null | [Baumkataster](dereferenced-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/annotation")                    |
 
-## location
+## tree
 
+Tree definition
 
-
-`location`
+`tree`
 
 *   is required
 
-*   Type: `object` ([Location](dereferenced-properties-location.md))
+*   Type: `object` ([Individual Tree](dereferenced-properties-individual-tree.md))
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-location.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location")
+*   defined in: [Baumkataster](dereferenced-properties-individual-tree.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree")
 
-*   vinv:id: https://schema.vinv.io/location/0.0.1.json
+### tree Type
 
-### location Type
+`object` ([Individual Tree](dereferenced-properties-individual-tree.md))
 
-`object` ([Location](dereferenced-properties-location.md))
+## conservation\_status
 
-## species
+Conservation status of the tree.
 
-Tree Species values taken from <https://github.com/b-lack/tree-species>
-
-`species`
+`conservation_status`
 
 *   is required
 
-*   Type: `string` ([Tree species](dereferenced-properties-tree-species.md))
+*   Type: `string` ([Conservation status](dereferenced-properties-conservation-status.md))
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-tree-species.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/species")
+*   defined in: [Baumkataster](dereferenced-properties-conservation-status.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/conservation_status")
 
-### species Type
+### conservation\_status Type
 
-`string` ([Tree species](dereferenced-properties-tree-species.md))
+`string` ([Conservation status](dereferenced-properties-conservation-status.md))
 
-### species Constraints
+### conservation\_status Constraints
 
-**pattern**: the string must match the following regular expression:&#x20;
+**maximum length**: the maximum number of characters for this string is: `50`
 
-```txt
-^[a-zA-Z0-9_-]{3}$
-```
-
-[try pattern](https://regexr.com/?expression=%5E%5Ba-zA-Z0-9_-%5D%7B3%7D%24 "try regular expression with regexr.com")
-
-### species Examples
+### conservation\_status Examples
 
 ```json
-"JM2"
-```
-
-## dbh
-
-Diameter in centimeter
-
-`dbh`
-
-*   is required
-
-*   Type: `number` ([Diameter at Breast Height](dereferenced-properties-diameter-at-breast-height.md))
-
-*   cannot be null
-
-*   defined in: [Baumkataster](dereferenced-properties-diameter-at-breast-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/dbh")
-
-### dbh Type
-
-`number` ([Diameter at Breast Height](dereferenced-properties-diameter-at-breast-height.md))
-
-### dbh Constraints
-
-**multiple of**: the value of this number must be a multiple of: `0.1`
-
-**maximum**: the value of this number must smaller than or equal to: `100`
-
-**minimum**: the value of this number must greater than or equal to: `1`
-
-### dbh Examples
-
-```json
-34
+"protected"
 ```
 
 ```json
-56
+"not protected"
 ```
-
-## height
-
-Height in Meter
-
-`height`
-
-*   is optional
-
-*   Type: `number` ([Height](dereferenced-properties-height.md))
-
-*   can be null
-
-*   defined in: [Baumkataster](dereferenced-properties-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/height")
-
-### height Type
-
-`number` ([Height](dereferenced-properties-height.md))
-
-### height Constraints
-
-**multiple of**: the value of this number must be a multiple of: `0.1`
-
-**maximum**: the value of this number must smaller than or equal to: `99`
-
-**minimum**: the value of this number must greater than or equal to: `0.5`
-
-### height Examples
-
-```json
-14
-```
-
-```json
-13.5
-```
-
-```json
-15.6
-```
-
-## trunk
-
-Trunk definition
-
-`trunk`
-
-*   is optional
-
-*   Type: `object` ([Trunk](dereferenced-properties-trunk.md))
-
-*   can be null
-
-*   defined in: [Baumkataster](dereferenced-properties-trunk.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")
-
-### trunk Type
-
-`object` ([Trunk](dereferenced-properties-trunk.md))
-
-## crown
-
-Crown definition
-
-`crown`
-
-*   is optional
-
-*   Type: `object` ([Crown](dereferenced-properties-crown.md))
-
-*   can be null
-
-*   defined in: [Baumkataster](dereferenced-properties-crown.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")
-
-### crown Type
-
-`object` ([Crown](dereferenced-properties-crown.md))
 
 ## root
 
-Tree root definition
+Root of the tree.
 
 `root`
 
 *   is optional
 
-*   Type: `object` ([Root](dereferenced-properties-root.md))
+*   Type: `object` ([Wurzel](dereferenced-properties-wurzel.md))
 
-*   can be null
+*   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-root.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")
+*   defined in: [Baumkataster](dereferenced-properties-wurzel.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")
 
 ### root Type
 
-`object` ([Root](dereferenced-properties-root.md))
+`object` ([Wurzel](dereferenced-properties-wurzel.md))
 
-## birth
+## trunk
 
-Birthday of the tree
+trunk foot and trunk
 
-`birth`
+`trunk`
 
 *   is optional
 
-*   Type: `string` ([Birthday](dereferenced-properties-birthday.md))
+*   Type: `object` ([Stammfuß und Stamm ](dereferenced-properties-stammfuß-und-stamm-.md))
 
-*   can be null
+*   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-birthday.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/birth")
+*   defined in: [Baumkataster](dereferenced-properties-stammfuß-und-stamm-.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")
 
-### birth Type
+### trunk Type
 
-`string` ([Birthday](dereferenced-properties-birthday.md))
+`object` ([Stammfuß und Stamm ](dereferenced-properties-stammfuß-und-stamm-.md))
 
-### birth Constraints
+## crown
 
-**date**: the string must be a date string, according to [RFC 3339, section 5.6](https://tools.ietf.org/html/rfc3339 "check the specification")
+trunk foot and trunk
 
-### birth Examples
+`crown`
+
+*   is optional
+
+*   Type: `object` ([Stammfuß und Stamm ](dereferenced-properties-stammfuß-und-stamm--1.md))
+
+*   cannot be null
+
+*   defined in: [Baumkataster](dereferenced-properties-stammfuß-und-stamm--1.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")
+
+### crown Type
+
+`object` ([Stammfuß und Stamm ](dereferenced-properties-stammfuß-und-stamm--1.md))
+
+## annotation
+
+Zeitweise sichtbares Vermehrungsorgan eines Pilzes, der möglicherweise lebendes Holz zersetzt.
+
+`annotation`
+
+*   is optional
+
+*   Type: `string` ([Anmerkung](dereferenced-properties-anmerkung.md))
+
+*   cannot be null
+
+*   defined in: [Baumkataster](dereferenced-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/annotation")
+
+### annotation Type
+
+`string` ([Anmerkung](dereferenced-properties-anmerkung.md))
+
+### annotation Constraints
+
+**maximum length**: the maximum number of characters for this string is: `500`
+
+### annotation Examples
 
 ```json
-"2010-09-13"
+"Unterversorgtes Holzgewebe durch Behinderung oder Unterbrechung des Saftstroms."
 ```

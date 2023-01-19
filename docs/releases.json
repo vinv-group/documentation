@@ -65,7 +65,7 @@
         "version": "0.0.1",
         "uri": "https://schema.vinv.io/cadastre/de/0.0.1.json",
         "exampleUri": "https://schema.vinv.io/cadastre/de/0.0.1/example.json",
-        "dereferencedUri": "https://schema.vinv.io/cadastre/de/0.0.1/dereferenced.doc.json",
+        "dereferencedUri": "https://raw.githubusercontent.com/vinv-group/vinv-schema/main/docs/cadastre/de/0.0.1/dereferenced.doc.json",
         "documentation": "https://vinv.io/specifications/cadastre/overview.html"
     }
 ]
