@@ -1,4 +1,4 @@
-# Baumkataster Schema
+# Baumkontrolle Schema
 
 ```txt
 https://schema.vinv.io/cadastre/de/0.0.1.json
@@ -10,20 +10,41 @@ Tree cadastre
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
-## Baumkataster Type
+## Baumkontrolle Type
 
-`object` ([Baumkataster](dereferenced.md))
+`object` ([Baumkontrolle](dereferenced.md))
 
-# Baumkataster Properties
+# Baumkontrolle Properties
 
-| Property                                     | Type     | Required | Nullable       | Defined by                                                                                                                                     |
-| :------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| [tree](#tree)                                | `object` | Required | cannot be null | [Baumkataster](dereferenced-properties-individual-tree.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree")                    |
-| [conservation\_status](#conservation_status) | `string` | Required | cannot be null | [Baumkataster](dereferenced-properties-conservation-status.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/conservation_status") |
-| [root](#root)                                | `object` | Optional | cannot be null | [Baumkataster](dereferenced-properties-wurzel.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")                             |
-| [trunk](#trunk)                              | `object` | Optional | cannot be null | [Baumkataster](dereferenced-properties-stammfuß-und-stamm-.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")               |
-| [crown](#crown)                              | `object` | Optional | cannot be null | [Baumkataster](dereferenced-properties-stammfuß-und-stamm--1.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")             |
-| [annotation](#annotation)                    | `string` | Optional | cannot be null | [Baumkataster](dereferenced-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/annotation")                    |
+| Property                             | Type      | Required | Nullable       | Defined by                                                                                                                              |
+| :----------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [base\_data](#base_data)             | `object`  | Required | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data")            |
+| [tree](#tree)                        | `object`  | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree")                 |
+| [exemption](#exemption)              | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-freistellung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/exemption")          |
+| [vitality](#vitality)                | `string`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-vitalitätsstufe.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/vitality")        |
+| [root](#root)                        | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-wurzel.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")                     |
+| [trunk](#trunk)                      | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm-.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")       |
+| [crown](#crown)                      | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stamm.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")                     |
+| [action\_required](#action_required) | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required") |
+| [status](#status)                    | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-zustand.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/status")                  |
+
+## base\_data
+
+
+
+`base_data`
+
+*   is required
+
+*   Type: `object` ([Grunddaten](dereferenced-properties-grunddaten.md))
+
+*   cannot be null
+
+*   defined in: [Baumkontrolle](dereferenced-properties-grunddaten.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data")
+
+### base\_data Type
+
+`object` ([Grunddaten](dereferenced-properties-grunddaten.md))
 
 ## tree
 
@@ -33,46 +54,97 @@ Tree definition
 
 *   is required
 
-*   Type: `object` ([Individual Tree](dereferenced-properties-individual-tree.md))
+*   Type: `object` ([Baum Daten](dereferenced-properties-baum-daten.md))
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-individual-tree.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree")
+*   defined in: [Baumkontrolle](dereferenced-properties-baum-daten.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree")
 
 ### tree Type
 
-`object` ([Individual Tree](dereferenced-properties-individual-tree.md))
+`object` ([Baum Daten](dereferenced-properties-baum-daten.md))
 
-## conservation\_status
+## exemption
 
-Conservation status of the tree.
 
-`conservation_status`
 
-*   is required
+`exemption`
 
-*   Type: `string` ([Conservation status](dereferenced-properties-conservation-status.md))
+*   is optional
+
+*   Type: `boolean` ([Freistellung](dereferenced-properties-freistellung.md))
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-conservation-status.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/conservation_status")
+*   defined in: [Baumkontrolle](dereferenced-properties-freistellung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/exemption")
 
-### conservation\_status Type
+### exemption Type
 
-`string` ([Conservation status](dereferenced-properties-conservation-status.md))
+`boolean` ([Freistellung](dereferenced-properties-freistellung.md))
 
-### conservation\_status Constraints
-
-**maximum length**: the maximum number of characters for this string is: `50`
-
-### conservation\_status Examples
+### exemption Examples
 
 ```json
-"protected"
+false
 ```
 
 ```json
-"not protected"
+true
+```
+
+## vitality
+
+
+
+`vitality`
+
+*   is optional
+
+*   Type: `string` ([Vitalitätsstufe](dereferenced-properties-vitalitätsstufe.md))
+
+*   cannot be null
+
+*   defined in: [Baumkontrolle](dereferenced-properties-vitalitätsstufe.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/vitality")
+
+### vitality Type
+
+`string` ([Vitalitätsstufe](dereferenced-properties-vitalitätsstufe.md))
+
+### vitality Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                 | Explanation |
+| :-------------------- | :---------- |
+| `"vital"`             |             |
+| `"leicht geschwächt"` |             |
+| `"geschwächt"`        |             |
+| `"stark geschwächt"`  |             |
+
+### vitality Default Value
+
+The default value is:
+
+```json
+"vital"
+```
+
+### vitality Examples
+
+```json
+"vital"
+```
+
+```json
+"leicht geschwächt"
+```
+
+```json
+"geschwächt"
+```
+
+```json
+"stark geschwächt"
 ```
 
 ## root
@@ -87,7 +159,7 @@ Root of the tree.
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-wurzel.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")
+*   defined in: [Baumkontrolle](dereferenced-properties-wurzel.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root")
 
 ### root Type
 
@@ -105,7 +177,7 @@ trunk foot and trunk
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-stammfuß-und-stamm-.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")
+*   defined in: [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm-.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk")
 
 ### trunk Type
 
@@ -113,46 +185,54 @@ trunk foot and trunk
 
 ## crown
 
-trunk foot and trunk
+Stammfuß und Stamm
 
 `crown`
 
 *   is optional
 
-*   Type: `object` ([Stammfuß und Stamm ](dereferenced-properties-stammfuß-und-stamm--1.md))
+*   Type: `object` ([Stamm](dereferenced-properties-stamm.md))
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-stammfuß-und-stamm--1.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")
+*   defined in: [Baumkontrolle](dereferenced-properties-stamm.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown")
 
 ### crown Type
 
-`object` ([Stammfuß und Stamm ](dereferenced-properties-stammfuß-und-stamm--1.md))
+`object` ([Stamm](dereferenced-properties-stamm.md))
 
-## annotation
+## action\_required
 
-Zeitweise sichtbares Vermehrungsorgan eines Pilzes, der möglicherweise lebendes Holz zersetzt.
 
-`annotation`
+
+`action_required`
 
 *   is optional
 
-*   Type: `string` ([Anmerkung](dereferenced-properties-anmerkung.md))
+*   Type: `object` ([Handlungsbedarf](dereferenced-properties-handlungsbedarf.md))
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/annotation")
+*   defined in: [Baumkontrolle](dereferenced-properties-handlungsbedarf.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required")
 
-### annotation Type
+### action\_required Type
 
-`string` ([Anmerkung](dereferenced-properties-anmerkung.md))
+`object` ([Handlungsbedarf](dereferenced-properties-handlungsbedarf.md))
 
-### annotation Constraints
+## status
 
-**maximum length**: the maximum number of characters for this string is: `500`
 
-### annotation Examples
 
-```json
-"Unterversorgtes Holzgewebe durch Behinderung oder Unterbrechung des Saftstroms."
-```
+`status`
+
+*   is optional
+
+*   Type: `object` ([Zustand](dereferenced-properties-zustand.md))
+
+*   cannot be null
+
+*   defined in: [Baumkontrolle](dereferenced-properties-zustand.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/status")
+
+### status Type
+
+`object` ([Zustand](dereferenced-properties-zustand.md))
