@@ -4,7 +4,7 @@
 https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/wound_rot
 ```
 
-
+Aufgrund einer Verletzung abgestorbenes, ausfaulendes Holz.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                 |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |

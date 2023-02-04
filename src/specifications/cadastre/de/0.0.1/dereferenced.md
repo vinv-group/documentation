@@ -4,7 +4,7 @@
 https://schema.vinv.io/cadastre/de/0.0.1.json
 ```
 
-Tree cadastre
+Baumkontrolle nach Vorgaben der Bundesanstalt für Gewässerkunde (bfa)
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                               |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------- |

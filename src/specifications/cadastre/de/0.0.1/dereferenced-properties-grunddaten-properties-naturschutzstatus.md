@@ -12,18 +12,14 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/c
 
 ## conservation\_status Type
 
-`string` ([Naturschutzstatus](dereferenced-properties-grunddaten-properties-naturschutzstatus.md))
-
-## conservation\_status Constraints
-
-**maximum length**: the maximum number of characters for this string is: `50`
+`boolean` ([Naturschutzstatus](dereferenced-properties-grunddaten-properties-naturschutzstatus.md))
 
 ## conservation\_status Examples
 
 ```json
-"protected"
+false
 ```
 
 ```json
-"not protected"
+true
 ```

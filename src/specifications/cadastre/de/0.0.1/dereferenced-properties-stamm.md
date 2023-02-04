@@ -29,7 +29,7 @@ Stammfuß und Stamm
 | [wound\_rot](#wound_rot)                                | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stamm-properties-wunde-mit-fäule.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown/properties/wound_rot")                      |
 | [loose\_hanging\_branch](#loose_hanging_branch)         | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stamm-properties-lose-hängender-ast.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown/properties/loose_hanging_branch")        |
 | [breakdown](#breakdown)                                 | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stamm-properties-anbruch.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown/properties/breakdown")                              |
-| [annotation](#annotation)                               | `string`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stamm-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown/properties/annotation")                           |
+| [annotation](#annotation)                               | `string`  | Optional | can be null    | [Baumkontrolle](dereferenced-properties-stamm-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown/properties/annotation")                           |
 
 ## mushroom
 
@@ -339,7 +339,7 @@ true
 
 *   Type: `string` ([Anmerkung](dereferenced-properties-stamm-properties-anmerkung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Baumkontrolle](dereferenced-properties-stamm-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/crown/properties/annotation")
 

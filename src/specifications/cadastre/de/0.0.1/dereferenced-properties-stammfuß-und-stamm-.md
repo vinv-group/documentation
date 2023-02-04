@@ -18,7 +18,7 @@ trunk foot and trunk
 
 | Property                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                             |
 | :------------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [misalignment](#misalignment)                           | `object`  | Required | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-schiefstellung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/misalignment")                    |
+| [misalignment](#misalignment)                           | `object`  | Required | can be null    | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-schiefstellung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/misalignment")                    |
 | [juice\_leakage](#juice_leakage)                        | `boolean` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-saftaustritt.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/juice_leakage")                     |
 | [mushroom](#mushroom)                                   | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-pilzfruchtkörper.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/mushroom")                      |
 | [body\_longitudinal\_cracks](#body_longitudinal_cracks) | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-holzkörper-längsrisse.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/body_longitudinal_cracks") |
@@ -27,9 +27,9 @@ trunk foot and trunk
 | [rib\_pointed\_nose](#rib_pointed_nose)                 | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-spitznasige-längsrippe.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/rib_pointed_nose")        |
 | [thickening](#thickening)                               | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-verdickung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/thickening")                          |
 | [dead\_bark](#dead_bark)                                | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-tote-rinde.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/dead_bark")                           |
-| [wound\_rot](#wound_rot)                                | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-wunde-mit-fäule.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/wound_rot")                      |
-| [capping](#capping)                                     | `object`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-kappung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/capping")                                |
-| [annotation](#annotation)                               | `string`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/annotation")                           |
+| [wound\_rot](#wound_rot)                                | `object`  | Optional | can be null    | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-wunde-mit-fäule.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/wound_rot")                      |
+| [capping](#capping)                                     | `object`  | Optional | can be null    | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-kappung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/capping")                                |
+| [annotation](#annotation)                               | `string`  | Optional | can be null    | [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/annotation")                           |
 
 ## misalignment
 
@@ -41,7 +41,7 @@ akutes Kippen
 
 *   Type: `object` ([Schiefstellung](dereferenced-properties-stammfuß-und-stamm--properties-schiefstellung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-schiefstellung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/misalignment")
 
@@ -275,7 +275,7 @@ true
 
 ## wound\_rot
 
-
+Aufgrund einer Verletzung abgestorbenes, ausfaulendes Holz.
 
 `wound_rot`
 
@@ -283,7 +283,7 @@ true
 
 *   Type: `object` ([Wunde mit Fäule](dereferenced-properties-stammfuß-und-stamm--properties-wunde-mit-fäule.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-wunde-mit-fäule.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/wound_rot")
 
@@ -293,7 +293,7 @@ true
 
 ## capping
 
-
+Baumzerstörende Einkürzung der Krone ohne Rücksicht auf die Wuchsform, Notmaßnahme zur Herstellung der Verkehrssicherheit. Geeignete Minderungsmaßnahme zur Entwicklung von Totholz-Lebensraum anstelle einer Fällung. Solange ein Totholzstumpf durch mögliches Umstürzen eine Verkehrsfläche erreichen kann, wird er der Regelkontrolle unterzogen.
 
 `capping`
 
@@ -301,7 +301,7 @@ true
 
 *   Type: `object` ([Kappung](dereferenced-properties-stammfuß-und-stamm--properties-kappung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-kappung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/capping")
 
@@ -319,7 +319,7 @@ true
 
 *   Type: `string` ([Anmerkung](dereferenced-properties-stammfuß-und-stamm--properties-anmerkung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Baumkontrolle](dereferenced-properties-stammfuß-und-stamm--properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/trunk/properties/annotation")
 

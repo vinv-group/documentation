@@ -12,7 +12,7 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/proper
 
 ## further\_visual\_inspection\_comment Type
 
-unknown ([Eingehende Untersuchung](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md))
+`boolean` ([Eingehende Untersuchung](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md))
 
 ## further\_visual\_inspection\_comment Examples
 

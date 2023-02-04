@@ -25,7 +25,7 @@ Root of the tree.
 | [backfill\_root](#backfill_root)          | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-wurzel-properties-stammnahe-schachtungen-1.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root/properties/backfill_root")          |
 | [stilt\_roots](#stilt_roots)              | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-wurzel-properties-stelzwurzeln.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root/properties/stilt_roots")                        |
 | [exposed\_roots](#exposed_roots)          | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-wurzel-properties-freigespülte-wurzeln.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root/properties/exposed_roots")              |
-| [annotation](#annotation)                 | `string`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-wurzel-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root/properties/annotation")                            |
+| [annotation](#annotation)                 | `string`  | Optional | can be null    | [Baumkontrolle](dereferenced-properties-wurzel-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root/properties/annotation")                            |
 
 ## raised\_root\_plate
 
@@ -233,7 +233,7 @@ true
 
 *   Type: `string` ([Anmerkung](dereferenced-properties-wurzel-properties-anmerkung.md))
 
-*   cannot be null
+*   can be null
 
 *   defined in: [Baumkontrolle](dereferenced-properties-wurzel-properties-anmerkung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/root/properties/annotation")
 

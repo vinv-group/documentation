@@ -16,12 +16,12 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data
 
 # base\_data Properties
 
-| Property                                     | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                          |
-| :------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [treeNumber](#treenumber)                    | `string` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-baumnummer.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/treeNumber")                                            |
-| [safety\_expectation](#safety_expectation)   | `string` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-berechtigte-sicherheitserwartung-des-verkehrs.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/safety_expectation") |
-| [conservation\_status](#conservation_status) | `string` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-naturschutzstatus.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/conservation_status")                            |
-| [development\_phase](#development_phase)     | `string` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-vitalitätsstufe.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/development_phase")                                |
+| Property                                     | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                          |
+| :------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [treeNumber](#treenumber)                    | `string`  | Required | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-baumnummer.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/treeNumber")                                            |
+| [safety\_expectation](#safety_expectation)   | `string`  | Required | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-berechtigte-sicherheitserwartung-des-verkehrs.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/safety_expectation") |
+| [conservation\_status](#conservation_status) | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-naturschutzstatus.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/conservation_status")                            |
+| [development\_phase](#development_phase)     | `string`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-grunddaten-properties-vitalitätsstufe.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/development_phase")                                |
 
 ## treeNumber
 
@@ -112,7 +112,7 @@ The default value is:
 
 *   is optional
 
-*   Type: `string` ([Naturschutzstatus](dereferenced-properties-grunddaten-properties-naturschutzstatus.md))
+*   Type: `boolean` ([Naturschutzstatus](dereferenced-properties-grunddaten-properties-naturschutzstatus.md))
 
 *   cannot be null
 
@@ -120,20 +120,16 @@ The default value is:
 
 ### conservation\_status Type
 
-`string` ([Naturschutzstatus](dereferenced-properties-grunddaten-properties-naturschutzstatus.md))
-
-### conservation\_status Constraints
-
-**maximum length**: the maximum number of characters for this string is: `50`
+`boolean` ([Naturschutzstatus](dereferenced-properties-grunddaten-properties-naturschutzstatus.md))
 
 ### conservation\_status Examples
 
 ```json
-"protected"
+false
 ```
 
 ```json
-"not protected"
+true
 ```
 
 ## development\_phase

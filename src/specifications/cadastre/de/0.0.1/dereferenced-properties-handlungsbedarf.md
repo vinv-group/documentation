@@ -16,11 +16,11 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required
 
 # action\_required Properties
 
-| Property                                                                   | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                              |
-| :------------------------------------------------------------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [further\_visual\_inspection](#further_visual_inspection)                  | `boolean`     | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-further_visual_inspection.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/further_visual_inspection")       |
-| [further\_visual\_inspection\_comment](#further_visual_inspection_comment) | Not specified | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/further_visual_inspection_comment") |
-| [urgency](#urgency)                                                        | `string`      | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-dringlichkeit.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/urgency")                                     |
+| Property                                                                   | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                              |
+| :------------------------------------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [further\_visual\_inspection](#further_visual_inspection)                  | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-weitere-sichtkontrolle.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/further_visual_inspection")          |
+| [further\_visual\_inspection\_comment](#further_visual_inspection_comment) | `boolean` | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/further_visual_inspection_comment") |
+| [urgency](#urgency)                                                        | `string`  | Optional | cannot be null | [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-dringlichkeit.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/urgency")                                     |
 
 ## further\_visual\_inspection
 
@@ -30,15 +30,15 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required
 
 *   is optional
 
-*   Type: `boolean`
+*   Type: `boolean` ([Weitere Sichtkontrolle](dereferenced-properties-handlungsbedarf-properties-weitere-sichtkontrolle.md))
 
 *   cannot be null
 
-*   defined in: [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-further_visual_inspection.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/further_visual_inspection")
+*   defined in: [Baumkontrolle](dereferenced-properties-handlungsbedarf-properties-weitere-sichtkontrolle.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/action_required/properties/further_visual_inspection")
 
 ### further\_visual\_inspection Type
 
-`boolean`
+`boolean` ([Weitere Sichtkontrolle](dereferenced-properties-handlungsbedarf-properties-weitere-sichtkontrolle.md))
 
 ### further\_visual\_inspection Examples
 
@@ -58,7 +58,7 @@ true
 
 *   is optional
 
-*   Type: unknown ([Eingehende Untersuchung](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md))
+*   Type: `boolean` ([Eingehende Untersuchung](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md))
 
 *   cannot be null
 
@@ -66,7 +66,7 @@ true
 
 ### further\_visual\_inspection\_comment Type
 
-unknown ([Eingehende Untersuchung](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md))
+`boolean` ([Eingehende Untersuchung](dereferenced-properties-handlungsbedarf-properties-eingehende-untersuchung.md))
 
 ### further\_visual\_inspection\_comment Examples
 
