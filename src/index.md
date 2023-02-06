@@ -6,8 +6,8 @@ hero:
   text: Specifications of Forest Inventory Data
   tagline: Description of geospatial data models relevant to forestry.
   image:
-    light: /og/vinv.svg
-    dark: /og/vinv.svg
+    light: /assets/images/vinv-tree.svg
+    dark: /assets/images/vinv-tree.svg
   actions:
     - theme: brand
       text: Get Started

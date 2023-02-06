@@ -16,11 +16,11 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location
 
 # location Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                             |
-| :-------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [coordinates](#coordinates) | `object` | Required | cannot be null | [Baumkataster](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/coordinates") |
-| [accuracy](#accuracy)       | `number` | Required | cannot be null | [Baumkataster](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/accuracy")       |
-| [geogrid](#geogrid)         | `object` | Optional | can be null    | [Baumkataster](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/geogrid")        |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                                              |
+| :-------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [coordinates](#coordinates) | `object` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/coordinates") |
+| [accuracy](#accuracy)       | `number` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/accuracy")       |
+| [geogrid](#geogrid)         | `object` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/geogrid")        |
 
 ## coordinates
 
@@ -34,7 +34,7 @@ Anchor point of the Object on a map. Array of longitude, latitude and \[altitude
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/coordinates")
+*   defined in: [Baumkontrolle](dereferenced-properties-location-properties-coordinates.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/coordinates")
 
 ### coordinates Type
 
@@ -52,7 +52,7 @@ The decimal accuracy of coordinates in meter (2 decimal places max).
 
 *   cannot be null
 
-*   defined in: [Baumkataster](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/accuracy")
+*   defined in: [Baumkontrolle](dereferenced-properties-location-properties-accuracy.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/accuracy")
 
 ### accuracy Type
 
@@ -88,7 +88,7 @@ Geographical Aggregation Grid
 
 *   can be null
 
-*   defined in: [Baumkataster](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/geogrid")
+*   defined in: [Baumkontrolle](dereferenced-properties-location-properties-geo-grid.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/geogrid")
 
 ### geogrid Type
 

@@ -8,7 +8,7 @@ Tree definition
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                 |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [dereferenced.doc.json\*](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
 ## tree Type
 
@@ -16,35 +16,14 @@ Tree definition
 
 # tree Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                  |
-| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location) | `object` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-location.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/location")             |
-| [species](#species)   | `string` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-tree-species.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/species")          |
-| [dbh](#dbh)           | `number` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-diameter-at-breast-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/dbh") |
-| [height](#height)     | `number` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/height")                 |
-| [trunk](#trunk)       | `object` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-trunk.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/trunk")                   |
-| [crown](#crown)       | `object` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-crown.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/crown")                   |
-| [birth](#birth)       | `string` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-birthday.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/birth")                |
-
-## location
-
-
-
-`location`
-
-*   is required
-
-*   Type: `object` ([Location](dereferenced-properties-baum-daten-properties-location.md))
-
-*   cannot be null
-
-*   defined in: [Baumkontrolle](dereferenced-properties-baum-daten-properties-location.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/location")
-
-*   vinv:id: https://schema.vinv.io/location/0.0.1.json
-
-### location Type
-
-`object` ([Location](dereferenced-properties-baum-daten-properties-location.md))
+| Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                                  |
+| :------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [species](#species) | `string` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-tree-species.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/species")          |
+| [dbh](#dbh)         | `number` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-diameter-at-breast-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/dbh") |
+| [height](#height)   | `number` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/height")                 |
+| [trunk](#trunk)     | `object` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-trunk.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/trunk")                   |
+| [crown](#crown)     | `object` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-crown.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/crown")                   |
+| [birth](#birth)     | `string` | Optional | can be null    | [Baumkontrolle](dereferenced-properties-baum-daten-properties-birthday.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/birth")                |
 
 ## species
 

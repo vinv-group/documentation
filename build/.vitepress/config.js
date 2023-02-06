@@ -32,7 +32,7 @@ export default {
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vinv-group' },
         ],
-        logo: '/og/vinv.svg',
+        logo: '/assets/images/vinv.svg',
         editLink: {
             pattern: 'https://github.com/vinv-group/documentation/edit/main/src/:path',
             text: 'Edit this page on GitHub'

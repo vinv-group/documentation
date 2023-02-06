@@ -1,7 +1,7 @@
-# Untitled undefined type in Baumkontrolle Schema
+# Vitalitätsstufe Schema
 
 ```txt
-https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/geogrid/properties
+https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/base_data/properties/vitality
 ```
 
 
@@ -10,6 +10,43 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/ge
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
-## properties Type
+## vitality Type
 
-unknown
+`string` ([Vitalitätsstufe](dereferenced-properties-grunddaten-properties-vitalitätsstufe-1.md))
+
+## vitality Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                 | Explanation |
+| :-------------------- | :---------- |
+| `"vital"`             |             |
+| `"leicht geschwächt"` |             |
+| `"geschwächt"`        |             |
+| `"stark geschwächt"`  |             |
+
+## vitality Default Value
+
+The default value is:
+
+```json
+"vital"
+```
+
+## vitality Examples
+
+```json
+"vital"
+```
+
+```json
+"leicht geschwächt"
+```
+
+```json
+"geschwächt"
+```
+
+```json
+"stark geschwächt"
+```

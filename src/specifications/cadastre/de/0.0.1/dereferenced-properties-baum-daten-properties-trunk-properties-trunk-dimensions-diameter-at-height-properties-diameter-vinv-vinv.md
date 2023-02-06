@@ -1,7 +1,7 @@
 # Untitled undefined type in Baumkontrolle Schema
 
 ```txt
-https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/geogrid/properties
+https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/trunk/properties/dimensions/items/properties/diameter/vinv/$vinv
 ```
 
 
@@ -10,6 +10,6 @@ https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/location/properties/ge
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
-## properties Type
+## $vinv Type
 
 unknown

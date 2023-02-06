@@ -8,7 +8,7 @@ Array including height and diameter at height
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                 |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [dereferenced.doc.json\*](../../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
 ## items Type
 
@@ -22,14 +22,14 @@ Array including height and diameter at height
 
 # items Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                   |
-| :-------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [height](#height)     | `number` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/crown/properties/dimensions/items/properties/height")     |
-| [diameter](#diameter) | `number` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-diameter.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/crown/properties/dimensions/items/properties/diameter") |
+| Property              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                   |
+| :-------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [height](#height)     | `number`  | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-height.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/crown/properties/dimensions/items/properties/height")     |
+| [diameter](#diameter) | `integer` | Required | cannot be null | [Baumkontrolle](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-diameter.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/crown/properties/dimensions/items/properties/diameter") |
 
 ## height
 
-Height of tree in PERCENT where diameter is measured
+Height of measurment in meter where diameter is measured.
 
 `height`
 
@@ -47,9 +47,11 @@ Height of tree in PERCENT where diameter is measured
 
 ### height Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `1`
+**multiple of**: the value of this number must be a multiple of: `0.1`
 
-**minimum**: the value of this number must greater than or equal to: `0.1`
+**maximum**: the value of this number must smaller than or equal to: `100`
+
+**minimum**: the value of this number must greater than or equal to: `0`
 
 ### height Examples
 
@@ -63,13 +65,13 @@ Height of tree in PERCENT where diameter is measured
 
 ## diameter
 
-Diameter in CENTIMETER at measured height
+Diameter in centimeter at measured height.
 
 `diameter`
 
 *   is required
 
-*   Type: `number` ([Diameter](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-diameter.md))
+*   Type: `integer` ([Diameter](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-diameter.md))
 
 *   cannot be null
 
@@ -77,13 +79,13 @@ Diameter in CENTIMETER at measured height
 
 ### diameter Type
 
-`number` ([Diameter](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-diameter.md))
+`integer` ([Diameter](dereferenced-properties-baum-daten-properties-crown-properties-crown-dimensions-diameter-at-height-properties-diameter.md))
 
 ### diameter Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `100`
+**maximum**: the value of this number must smaller than or equal to: `1000`
 
-**minimum**: the value of this number must greater than or equal to: `10`
+**minimum**: the value of this number must greater than or equal to: `1`
 
 ### diameter Examples
 

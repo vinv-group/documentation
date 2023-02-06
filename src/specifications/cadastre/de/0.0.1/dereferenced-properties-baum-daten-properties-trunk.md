@@ -53,8 +53,6 @@ Image of the trunk
 
 *   defined in: [Baumkontrolle](dereferenced-properties-baum-daten-properties-trunk-properties-image-of-the-trunk.md "https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/trunk/properties/image_trunk")
 
-*   vinv:id: https://schema.vinv.io/image/0.0.1.json
-
 ### image\_trunk Type
 
 `object` ([Image of the trunk](dereferenced-properties-baum-daten-properties-trunk-properties-image-of-the-trunk.md))

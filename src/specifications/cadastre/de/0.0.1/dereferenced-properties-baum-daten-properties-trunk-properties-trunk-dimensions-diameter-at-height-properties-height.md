@@ -4,7 +4,7 @@
 https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/trunk/properties/dimensions/items/properties/height
 ```
 
-Height of tree in PERCENT where diameter is measured
+Height of measurment in meter where diameter is measured.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |
@@ -16,9 +16,11 @@ Height of tree in PERCENT where diameter is measured
 
 ## height Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `1`
+**multiple of**: the value of this number must be a multiple of: `0.1`
 
-**minimum**: the value of this number must greater than or equal to: `0.1`
+**maximum**: the value of this number must smaller than or equal to: `100`
+
+**minimum**: the value of this number must greater than or equal to: `0`
 
 ## height Examples
 

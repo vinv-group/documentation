@@ -4,7 +4,7 @@
 https://schema.vinv.io/cadastre/de/0.0.1.json#/properties/tree/properties/trunk/properties/dimensions/items/properties/diameter
 ```
 
-Diameter in CENTIMETER at measured height
+Diameter in centimeter at measured height.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------------------------------------------------------------- |
@@ -12,13 +12,13 @@ Diameter in CENTIMETER at measured height
 
 ## diameter Type
 
-`number` ([Diameter](dereferenced-properties-baum-daten-properties-trunk-properties-trunk-dimensions-diameter-at-height-properties-diameter.md))
+`integer` ([Diameter](dereferenced-properties-baum-daten-properties-trunk-properties-trunk-dimensions-diameter-at-height-properties-diameter.md))
 
 ## diameter Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `100`
+**maximum**: the value of this number must smaller than or equal to: `1000`
 
-**minimum**: the value of this number must greater than or equal to: `10`
+**minimum**: the value of this number must greater than or equal to: `1`
 
 ## diameter Examples
 
