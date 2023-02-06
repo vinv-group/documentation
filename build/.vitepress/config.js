@@ -40,6 +40,7 @@ export default {
         nav: [
             { text: 'Guide', link: '/guide/introduction.md' },
             { text: 'Code of Cunduct', link: '/code-of-conduct.md' },
+            { text: 'Changelog', link: '/CHANGELOG.md' },
             {
                 text: 'Contributing',
                 items: [
@@ -57,25 +58,9 @@ export default {
                 ]
             },
             {
-                items: [
-                    {   text: 'vinv-Basics',
-                        link: '/guide/basics.md',
-                        collapsible: true,
-                        collapsed: false,
-                        items: [
-                            { text: 'Location', link: '/basics/location/0.0.1/dereferenced.md' },
-                            { text: 'Coordinates', link: '/basics/coordinates/0.0.1/dereferenced.md' },
-                            { text: 'Image', link: '/basics/image/0.0.1/dereferenced.md' },
-                            { text: 'Species', link: '/basics/species/0.0.1/dereferenced.md' },
-                            { text: 'Sensors', link: '/basics/sensors/0.0.1/dereferenced.md' }
-                        ]
-                    }
-                ]
-            },
-            {
                 text: 'Individual Tree',
-                collapsible: true,
-                collapsed: true,
+                collapsible: false,
+                collapsed: false,
                 items: [
                     { text: 'Overview', link: '/specifications/vinv-individual-tree/overview.md' },
                     //{ text: 'Usage', link: '/specifications/vinv-individual-tree/usage.md'},
@@ -84,12 +69,37 @@ export default {
             },
             {
                 text: 'Roundwood Pile',
-                collapsible: true,
-                collapsed: true,
+                collapsible: false,
+                collapsed: false,
                 items: [
                     //{ text: 'Overview', link: '/specifications/vinv-roundwood-pile/overview.md' },
                     //{ text: 'Usage', link: '/specifications/vinv-individual-tree/usage.md'},
                     { text: 'Documentation', link: '/specifications/vinv-roundwood-pile/0.0.1/dereferenced.md' }
+                ]
+            },
+            {
+                text: 'Utils',
+                collapsible: true,
+                collapsed: false,
+                items: [
+                    {   
+                        text: 'Forestry',
+                        items: [
+                            { text: 'Species', link: '/basics/species/0.0.1/dereferenced.md' },
+                            { text: 'DBH', link: '/basics/dbh/0.0.1/dereferenced.md' },
+                            { text: 'Trunk Height', link: '/basics/trunk-height/0.0.1/dereferenced.md' },
+                            { text: 'Log', link: '/basics/log/0.0.1/dereferenced.md' }
+                        ]
+                    },
+                    {   
+                        text: 'Sensors',
+                        items: [
+                            { text: 'Location', link: '/basics/location/0.0.1/dereferenced.md' },
+                            { text: 'Coordinates', link: '/basics/coordinates/0.0.1/dereferenced.md' },
+                            { text: 'Image', link: '/basics/image/0.0.1/dereferenced.md' },
+                            { text: 'Sensors', link: '/basics/sensors/0.0.1/dereferenced.md' }
+                        ]
+                    }
                 ]
             }
         ]

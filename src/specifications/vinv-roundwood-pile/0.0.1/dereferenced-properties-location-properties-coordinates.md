@@ -1,7 +1,7 @@
 # Coordinates Schema
 
 ```txt
-https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates
+https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates
 ```
 
 Anchor point of the Object on a map. Array of longitude, latitude and \[altitude] coordinate. Reference system: WGS84 Web Mercator with longitude and latitude units of decimal degrees.
@@ -16,11 +16,11 @@ Anchor point of the Object on a map. Array of longitude, latitude and \[altitude
 
 # coordinates Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                        |
-| :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [longitude](#longitude) | `number` | Required | cannot be null | [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-longitude.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/longitude") |
-| [latitude](#latitude)   | `number` | Required | cannot be null | [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-latitude.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/latitude")   |
-| [altitude](#altitude)   | `number` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-altitude.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/altitude")   |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                |
+| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [longitude](#longitude) | `number` | Required | cannot be null | [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-longitude.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/longitude") |
+| [latitude](#latitude)   | `number` | Required | cannot be null | [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-latitude.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/latitude")   |
+| [altitude](#altitude)   | `number` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-altitude.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/altitude")   |
 
 ## longitude
 
@@ -34,7 +34,7 @@ The decimal east/west position of a point. (7 decimal places max)
 
 *   cannot be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-longitude.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/longitude")
+*   defined in: [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-longitude.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/longitude")
 
 ### longitude Type
 
@@ -70,7 +70,7 @@ The decimal north/south position of a point. (7 decimal places max)
 
 *   cannot be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-latitude.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/latitude")
+*   defined in: [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-latitude.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/latitude")
 
 ### latitude Type
 
@@ -106,7 +106,7 @@ The altitude of the position in meters above mean sea level. (2 decimal places m
 
 *   can be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-altitude.md "https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/altitude")
+*   defined in: [RoundwoodPile](dereferenced-properties-location-properties-coordinates-properties-altitude.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/altitude")
 
 ### altitude Type
 

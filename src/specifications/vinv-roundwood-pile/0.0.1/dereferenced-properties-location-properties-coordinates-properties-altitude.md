@@ -1,7 +1,7 @@
 # Altitude Schema
 
 ```txt
-https://schema.vinv.io/coordinates/0.0.1.json#/properties/location/properties/coordinates/properties/altitude
+https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location/properties/coordinates/properties/altitude
 ```
 
 The altitude of the position in meters above mean sea level. (2 decimal places max)

@@ -1,7 +1,7 @@
 # Width Schema
 
 ```txt
-https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/width
+https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/width
 ```
 
 Width of the image.

@@ -16,11 +16,11 @@ Roundwood Pile
 
 # RoundwoodPile Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                    |
-| :-------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [location](#location)                   | `object` | Required | cannot be null | [RoundwoodPile](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")        |
-| [trunks](#trunks)                       | `array`  | Required | cannot be null | [RoundwoodPile](dereferenced-properties-trunks.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/trunks") |
-| [image\_pile\_front](#image_pile_front) | `object` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front")      |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                             |
+| :-------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| [location](#location)                   | `object` | Required | cannot be null | [RoundwoodPile](dereferenced-properties-location.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location")      |
+| [logs](#logs)                           | `array`  | Required | cannot be null | [RoundwoodPile](dereferenced-properties-logs.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/logs")              |
+| [image\_pile\_front](#image_pile_front) | `object` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front") |
 
 ## location
 
@@ -34,33 +34,31 @@ Roundwood Pile
 
 *   cannot be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-location.md "https://schema.vinv.io/location/0.0.1.json#/properties/location")
-
-*   vinv:id: https://schema.vinv.io/location/0.0.1.json
+*   defined in: [RoundwoodPile](dereferenced-properties-location.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/location")
 
 ### location Type
 
 `object` ([Location](dereferenced-properties-location.md))
 
-## trunks
+## logs
 
-Multiple trunk definition.
+Multiple logs definition.
 
-`trunks`
+`logs`
 
 *   is required
 
-*   Type: `object[]` ([Trunk](dereferenced-properties-trunks-trunk.md))
+*   Type: `object[]` ([Log](dereferenced-properties-logs-log.md))
 
 *   cannot be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-trunks.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/trunks")
+*   defined in: [RoundwoodPile](dereferenced-properties-logs.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/logs")
 
-### trunks Type
+### logs Type
 
-`object[]` ([Trunk](dereferenced-properties-trunks-trunk.md))
+`object[]` ([Log](dereferenced-properties-logs-log.md))
 
-### trunks Constraints
+### logs Constraints
 
 **minimum number of items**: the minimum number of items for this array is: `1`
 
@@ -76,9 +74,7 @@ Image of the Pile front
 
 *   can be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-image.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front")
-
-*   vinv:id: https://schema.vinv.io/image/0.0.1.json
+*   defined in: [RoundwoodPile](dereferenced-properties-image.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front")
 
 ### image\_pile\_front Type
 

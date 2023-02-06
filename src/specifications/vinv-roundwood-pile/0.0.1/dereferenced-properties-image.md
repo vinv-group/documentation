@@ -1,7 +1,7 @@
 # Image Schema
 
 ```txt
-https://schema.vinv.io/image/0.0.1.json#/properties/trunks/items/properties/image_trunk
+https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front
 ```
 
 Image of the Pile front
@@ -10,19 +10,19 @@ Image of the Pile front
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dereferenced.doc.json\*](../../../../../vinv-schemas/vinv-tree/out/0.0.1/dereferenced.doc.json "open original schema") |
 
-## image\_trunk Type
+## image\_pile\_front Type
 
 `object` ([Image](dereferenced-properties-image.md))
 
-# image\_trunk Properties
+# image\_pile\_front Properties
 
-| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                             |
-| :-------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [uri](#uri)                 | `string`  | Required | cannot be null | [RoundwoodPile](dereferenced-properties-image-properties-image.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/uri")               |
-| [encoder](#encoder)         | `string`  | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-encoder.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/encoder")         |
-| [compression](#compression) | `number`  | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-compression.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/compression") |
-| [width](#width)             | `integer` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-width.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/width")             |
-| [height](#height)           | `integer` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-height.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/height")           |
+| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                           |
+| :-------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [uri](#uri)                 | `string`  | Required | cannot be null | [RoundwoodPile](dereferenced-properties-image-properties-image.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/uri")               |
+| [encoder](#encoder)         | `string`  | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-encoder.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/encoder")         |
+| [compression](#compression) | `number`  | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-compression.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/compression") |
+| [width](#width)             | `integer` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-width.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/width")             |
+| [height](#height)           | `integer` | Optional | can be null    | [RoundwoodPile](dereferenced-properties-image-properties-height.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/height")           |
 
 ## uri
 
@@ -36,7 +36,7 @@ A universal resource identifier (URI), according to RFC3986.
 
 *   cannot be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-image.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/uri")
+*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-image.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/uri")
 
 ### uri Type
 
@@ -64,7 +64,7 @@ The encoder used to encode the image.
 
 *   can be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-encoder.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/encoder")
+*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-encoder.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/encoder")
 
 ### encoder Type
 
@@ -109,7 +109,7 @@ The compression used to encode the image.
 
 *   can be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-compression.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/compression")
+*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-compression.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/compression")
 
 ### compression Type
 
@@ -147,7 +147,7 @@ Width of the image.
 
 *   can be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-width.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/width")
+*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-width.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/width")
 
 ### width Type
 
@@ -177,7 +177,7 @@ Height of the image
 
 *   can be null
 
-*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-height.md "https://schema.vinv.io/image/0.0.1.json#/properties/image_pile_front/properties/height")
+*   defined in: [RoundwoodPile](dereferenced-properties-image-properties-height.md "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json#/properties/image_pile_front/properties/height")
 
 ### height Type
 
