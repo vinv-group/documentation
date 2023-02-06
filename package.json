@@ -6,8 +6,8 @@
   "author": "b-lack <gerrit.balindt@b-lack.io>",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev build",
-    "docs:build": "npm run clearSrc && vitepress build build && npm run copy",
+    "dev": "npm run clearSrc && vitepress dev build",
+    "docs:build": "vitepress build build && npm run copy",
     "docs:serve": "vitepress serve build",
     "clearSrc": "node processing/replace-regexp.js",
     "download": "node processing/download.js",
