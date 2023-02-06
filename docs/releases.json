@@ -1,0 +1,220 @@
+[
+    {
+        "id": "envelope",
+        "topic": [
+            "envelope"
+        ],
+        "icon": "https://vinv.io/schema-icons/vinv.svg",
+        "hero": "https://vinv.io/schema-hero/individual-tree.jpg",
+
+        "sponsors": [
+            {
+                "name": "Grünecho",
+                "url": "https://gruenecho.de",
+                "logo": "https://gruenecho.de/img/ge-logo.svg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "b-lack",
+                "url": "https://github.com/b-lack",
+                "logo": "https://avatars.githubusercontent.com/u/11278402?v=4"
+            }
+        ],
+        "languages": [
+            "en"
+        ],
+
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/envelope/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/envelope/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/envelope/0.0.1/dereferenced.doc.json",
+        "documentation": "https://vinv.io/guide/envelope.html",
+        "history": {
+            "0.0.1": {
+                "uri": "https://schema.vinv.io/envelope/0.0.1.json",
+                "exampleUri": "https://schema.vinv.io/envelope/0.0.1/example.json",
+                "dereferencedUri": "https://schema.vinv.io/envelope/0.0.1/dereferenced.doc.json",
+                "documentation": "https://vinv.io/guide/envelope.html"
+            }
+        }
+    },
+    {
+        "id": "vinv-individual-tree",
+        "name": "Individual Tree",
+        "topic": [
+            "forestry"
+        ],
+        "icon": "https://vinv.io/schema-icons/forest_FILL0_wght400_GRAD0_opsz48.svg",
+        "hero": "https://vinv.io/schema-hero/individual-tree.jpg",
+
+        "sponsors": [
+            {
+                "name": "Grünecho",
+                "url": "https://gruenecho.de",
+                "logo": "https://gruenecho.de/img/ge-logo.svg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "b-lack",
+                "url": "https://github.com/b-lack",
+                "logo": "https://avatars.githubusercontent.com/u/11278402?v=4"
+            }
+        ],
+        "languages": [
+            "en"
+        ],
+
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/vinv-individual-tree/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/vinv-individual-tree/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/vinv-individual-tree/0.0.1/dereferenced.doc.json",
+        "documentation": "https://vinv.io/specifications/vinv-individual-tree/overview.html",
+        "history": {
+            "0.0.1": {
+                "uri": "https://schema.vinv.io/vinv-individual-tree/0.0.1.json",
+                "exampleUri": "https://schema.vinv.io/vinv-individual-tree/0.0.1/example.json",
+                "dereferencedUri": "https://schema.vinv.io/vinv-individual-tree/0.0.1/dereferenced.doc.json",
+                "documentation": "https://vinv.io/specifications/vinv-individual-tree/overview.html"
+            }
+        }
+    },
+    {
+        "id": "vinv-roundwood-pile",
+        "name": "Roundwood Pile",
+        "topic": [
+            "forestry"
+        ],
+        "icon": "https://vinv.io/schema-icons/reorder_FILL0_wght400_GRAD0_opsz48.svg",
+        "hero": "https://vinv.io/schema-hero/individual-tree.jpg",
+
+        "sponsors": [
+            {
+                "name": "Grünecho",
+                "url": "https://gruenecho.de",
+                "logo": "https://gruenecho.de/img/ge-logo.svg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "b-lack",
+                "url": "https://github.com/b-lack",
+                "logo": "https://avatars.githubusercontent.com/u/11278402?v=4"
+            }
+        ],
+        "languages": [
+            "en"
+        ],
+        
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/vinv-roundwood-pile/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/vinv-roundwood-pile/0.0.1/dereferenced.doc.json",
+        "documentation": "https://vinv.io/specifications/vinv-roundwood-pile/overview.html",
+
+        "history": {
+            "0.0.1": {
+                "uri": "https://schema.vinv.io/vinv-roundwood-pile/0.0.1.json",
+                "exampleUri": "https://schema.vinv.io/vinv-roundwood-pile/0.0.1/example.json",
+                "dereferencedUri": "https://schema.vinv.io/vinv-roundwood-pile/0.0.1/dereferenced.doc.json",
+                "documentation": "https://vinv.io/specifications/vinv-roundwood-pile/overview.html"
+            }
+        }
+    },
+    {
+        "id": "sensors",
+        "name": "Sensors",
+        "topic": [
+            "forestry"
+        ],
+        "icon": "https://vinv.io/schema-icons/nest_remote_comfort_sensor_FILL0_wght400_GRAD0_opsz48.svg",
+        "hero": "https://vinv.io/schema-hero/individual-tree.jpg",
+
+        "sponsors": [
+            {
+                "name": "Grünecho",
+                "url": "https://gruenecho.de",
+                "logo": "https://gruenecho.de/img/ge-logo.svg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "b-lack",
+                "url": "https://github.com/b-lack",
+                "logo": "https://avatars.githubusercontent.com/u/11278402?v=4"
+            }
+        ],
+        "languages": [
+            "en"
+        ],
+
+
+
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/sensors/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/sensors/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/sensors/0.0.1/dereferenced.doc.json",
+        "documentation": "https://vinv.io/specifications/sensors/overview.html",
+        "history": {
+            "0.0.1": {
+                "uri": "https://schema.vinv.io/sensors/0.0.1.json",
+                "exampleUri": "https://schema.vinv.io/sensors/0.0.1/example.json",
+                "dereferencedUri": "https://schema.vinv.io/sensors/0.0.1/dereferenced.doc.json",
+                "documentation": "https://vinv.io/specifications/sensors/overview.html"
+            }
+        }
+    },
+    {
+        "id": "cadastre",
+        "name": "Cadastre",
+        "topic": [
+            "cadastre",
+            "Kataster",
+            "urban",
+            "forestry"
+        ],
+        "icon": "https://vinv.io/schema-icons/nature_people_FILL0_wght400_GRAD0_opsz48.svg",
+        "hero": "https://vinv.io/schema-hero/individual-tree.jpg",
+
+        "sponsors": [
+            {
+                "name": "BKB BaumKontrolle Berlin",
+                "url": "https://baumkontrolleberlin.de/",
+                "logo": "https://baum238469438.files.wordpress.com/2021/01/cropped-bkb-logo-e1609758318945.png"
+            },
+            {
+                "name": "Grünecho",
+                "url": "https://gruenecho.de",
+                "logo": "https://gruenecho.de/img/ge-logo.svg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "b-lack",
+                "url": "https://github.com/b-lack",
+                "logo": "https://avatars.githubusercontent.com/u/11278402?v=4"
+            }
+        ],
+        "languages": [
+            "de"
+        ],
+        "dependencies": [
+            "vinv-individual-tree"
+        ],
+
+        "version": "0.0.1",
+        "uri": "https://schema.vinv.io/cadastre/de/0.0.1.json",
+        "exampleUri": "https://schema.vinv.io/cadastre/de/0.0.1/example.json",
+        "dereferencedUri": "https://schema.vinv.io/cadastre/de/0.0.1/dereferenced.doc.json",
+        "documentation": "https://vinv.io/specifications/cadastre/overview.html",
+        "history": {
+            "0.0.1": {
+                "uri": "https://schema.vinv.io/cadastre/de/0.0.1.json",
+                "exampleUri": "https://schema.vinv.io/cadastre/de/0.0.1/example.json",
+                "dereferencedUri": "https://schema.vinv.io/cadastre/de/0.0.1/dereferenced.doc.json",
+                "documentation": "https://vinv.io/specifications/cadastre/overview.html"
+            }
+        }
+    }
+]
