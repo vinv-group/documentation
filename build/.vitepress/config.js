@@ -122,11 +122,10 @@ const config = {
                 url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
                 lastmod: pageData.lastUpdated
             })
-            console.log(pageData.title);
         }
     },
     buildEnd: async ({ outDir }) => {
-        
+       
         // https://www.npmjs.com/package/rss-generator
         var feed = new RSS({
             title: 'vinv.io',
@@ -142,7 +141,7 @@ const config = {
             pubDate: new Date("Fri Jan 20 2012 11:51:36 GMT-0500").toUTCString(),
             ttl: '60'
         });
-        const modules = config.sidebar[1].items;
+        //const modules = config.sidebar[1].items;
         links.forEach((link) => {
             feed.item({
                 title: link.title,
@@ -152,13 +151,13 @@ const config = {
         });
         writeFile(resolve(outDir, 'rss.xml'), feed.xml(), (err) => {
             if (err) throw err;
-            console.log('rss.xml saved');
         });
-
+       
 
         const sitemap = new SitemapStream({
-          hostname: 'https://vinv.io/'
-        })
+            hostname: 'https://vinv.io/'
+        });
+        console.log('outDir: ', outDir);
         const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
         sitemap.pipe(writeStream)
         links.forEach((link) => sitemap.write(link))
