@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "npm run merge && npm run download && npm run clearSrc && vitepress dev build",
     "build": "vitepress build build && npm run copy",
-    "docs:serve": "vitepress serve build",
+    "serve": "vitepress serve build",
+    
     "clearSrc": "node processing/replace-regexp.js",
     "download": "node processing/download.js",
     "copy": "cp -r ./public/* ./docs",

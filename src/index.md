@@ -6,8 +6,8 @@ hero:
   text: Specifications of Forest Inventory Data
   tagline: Description of geospatial data models relevant to forestry.
   image:
-    light: /assets/images/vinv-tree.svg
-    dark: /assets/images/vinv-tree.svg
+    light: /vinv-tree.svg
+    dark: /vinv-tree.svg
   actions:
     - theme: brand
       text: Get Started
@@ -15,8 +15,4 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/vinv-group
-features:
-  - title: Individual Tree
-    details: Description of standing individual trees.
-    link: /specifications/vinv-individual-tree/overview.html
 ---

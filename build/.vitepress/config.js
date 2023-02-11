@@ -25,15 +25,12 @@ const config = {
     base: '/',
     head: [
         ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/og/ios/192.png"}],
-        ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/og/ios/32.png"}],
-        ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/og/ios/16.png"}],
+        ['link', { rel: "icon", type: "image/svg+xml", href: "/og/vinv.svg"}],
         ['link', { rel: "manifest", href: "/og/manifest.json"}],
         ['link', { rel: "mask-icon", href: "/og/vinv.svg", color: "#3a0839"}],
         ['link', { rel: "shortcut icon", href: "/image/vinv.svg"}],
         ['meta', { name: "theme-color", content: "#75ebba"}],
     ],
-    
-    
     themeConfig: {
         footer: {
             message: 'Released under the GNU GENERAL PUBLIC LICENSE.',
@@ -42,7 +39,7 @@ const config = {
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vinv-group' },
         ],
-        logo: '/assets/images/vinv.svg',
+        logo: '/og/vinv.svg',
         
         editLink: {
             pattern: 'https://github.com/vinv-group/documentation/edit/main/src/:path',

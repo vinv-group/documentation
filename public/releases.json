@@ -198,8 +198,8 @@
         }
       }
     },
-    "icon": "https://vinv.io/assets/images/schema-icons/forest_FILL0_wght400_GRAD0_opsz48.svg",
-    "hero": "https://vinv.io/assets/images/schema-hero/vinv-cadastre.jpg",
+    "icon": "https://vinv.io/schema-icons/forest_FILL0_wght400_GRAD0_opsz48.svg",
+    "hero": "https://vinv.io/schema-hero/vinv-cadastre.jpg",
     "sponsors": [
       {
         "name": "BKB BaumKontrolle Berlin",
@@ -230,8 +230,8 @@
         }
       }
     },
-    "icon": "https://vinv.io/assets/images/schema-icons/reorder_FILL0_wght400_GRAD0_opsz48.svg",
-    "hero": "https://vinv.io/assets/images/schema-hero/vinv-roundwood-pile.jpg",
+    "icon": "https://vinv.io/schema-icons/reorder_FILL0_wght400_GRAD0_opsz48.svg",
+    "hero": "https://vinv.io/schema-hero/vinv-roundwood-pile.jpg",
     "sponsors": [
       {
         "name": "Grünecho",
@@ -270,8 +270,8 @@
         }
       }
     },
-    "icon": "https://vinv.io/assets/images/schema-icons/nature_people_FILL0_wght400_GRAD0_opsz48.svg",
-    "hero": "https://vinv.io/assets/images/schema-hero/vinv-tree-inspection.jpg",
+    "icon": "https://vinv.io/schema-icons/nature_people_FILL0_wght400_GRAD0_opsz48.svg",
+    "hero": "https://vinv.io/schema-hero/vinv-tree-inspection.jpg",
     "sponsors": [
       {
         "name": "Grünecho",
