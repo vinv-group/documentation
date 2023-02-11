@@ -6,18 +6,23 @@
   "author": "b-lack <gerrit.balindt@b-lack.io>",
   "license": "MIT",
   "scripts": {
-    "dev": "npm run clearSrc && vitepress dev build",
-    "docs:build": "vitepress build build && npm run copy",
+    "dev": "npm run merge && npm run download && npm run clearSrc && vitepress dev build",
+    "build": "vitepress build build && npm run copy",
     "docs:serve": "vitepress serve build",
     "clearSrc": "node processing/replace-regexp.js",
     "download": "node processing/download.js",
-    "copy": "cp -r ./public/* ./docs"
+    "copy": "cp -r ./public/* ./docs",
+    "merge": "node processing/merge.js"
   },
   "devDependencies": {
+    "sitemap": "^7.1.1",
+    "vite-plugin-rss": "^0.0.6",
     "vitepress": "^1.0.0-alpha.30",
     "vue": "^3.2.45"
   },
   "dependencies": {
-    "markdown-it-regexp": "^0.4.0"
+    "markdown-it-regexp": "^0.4.0",
+    "node-fetch": "^2.6.1",
+    "rss-generator": "^0.0.3"
   }
 }
