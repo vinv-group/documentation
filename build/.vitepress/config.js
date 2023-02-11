@@ -43,6 +43,7 @@ const config = {
             { icon: 'github', link: 'https://github.com/vinv-group' },
         ],
         logo: '/assets/images/vinv.svg',
+        
         editLink: {
             pattern: 'https://github.com/vinv-group/documentation/edit/main/src/:path',
             text: 'Edit this page on GitHub'

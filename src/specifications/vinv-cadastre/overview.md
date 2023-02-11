@@ -12,13 +12,12 @@ schema: 'vinv-cadastre'
 
     const { page } = useData()
     
-
     const spec = json['vinv-cadastre'];
 </script>
 
 <div class="vinv-jumbo">
     <img class="banner" :src="spec.hero">
-    <img class="icon" src="/assets/images/schema-icons/forest_FILL0_wght400_GRAD0_opsz48.svg">
+    <img class="icon" :src="spec.icon">
 </div>
 
 # {{spec.title}}

@@ -108,3 +108,6 @@ out
 .DS_Store
 
 processing
+
+src/specifications
+src/basics
